@@ -1,0 +1,115 @@
+body{
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin: 40px;
+    margin-bottom: 50px;
+}
+header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding: 0 50px 0 50px;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+}
+nav{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    color: white;
+
+}
+
+.banner{
+    background-image: url('https://www.apple.com/v/home/bv/images/heroes/macbook-pro-enhanced/hero_macbookpro_announce__f7vm5bnswsae_large.jpg');
+    width:100%;
+    height: 580px;
+    background-position: center;
+    background-size: 3008px 580px;
+    background-repeat: no-repeat;
+}                                       
+.apple-container{
+    background-color: black;
+    height: 40px;   
+}
+img{
+    width: 20px;
+    padding: 10px;
+    
+}
+p{
+    color: ;
+}
+main{
+    background: url('');
+}
+.items{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 70px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 10px;
+    border-radius: 15px;
+    padding: 20px 10px;
+    color: white;
+    width: 320px;
+    background-color: #4b4a4a;
+    font-family: 'Courier New', Courier, monospace;
+}
+.item-img{
+    width: 244px;
+    height: 214px;
+    object-fit: contain;
+}
+.item h2{
+    font-size: 25px;
+    margin: 0;
+}
+.item-desc{
+    margin: 0;
+    font-size: 13px;
+}
+.item-price{
+    color: #9a63ff;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+.item-buy{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    padding: 12px;
+    width:fit-content;
+    font-size: 20px;
+    background: linear-gradient(to left,rgb(173,154,255), rgb(149,110,255));
+}
+.item img{
+    width: 200px;
+    height: 250px;
+    border-radius: 0px;
+}
