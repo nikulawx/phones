@@ -24,6 +24,13 @@ header{
     right: 0;
     background-color: black;
 }
+
+.cart-container{
+display: flex;
+align-items: center;
+gap: 20px;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -49,11 +56,9 @@ img{
     padding: 10px;
     
 }
-p{
-    color: ;
-}
+
 main{
-    background: url('');
+    padding: 30px;
 }
 .items{
     color: white;
@@ -113,3 +118,80 @@ main{
     height: 250px;
     border-radius: 0px;
 }
+h1{
+    font-size: 50px;
+}
+.cart-items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ .cart-item-middle{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+ }
+ .cart-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+ }
+ 
+ 
+ .cart-item-left{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
+ .cart-item img{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+ }
+ .cart-item h2{
+    font-size: 20px;
+ }
+ .cart-item p{
+    font-size: 30px;
+ }
+ .cart-item span{
+    font-size: 23px;
+ }
+ .quantity-input{
+    width: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+ }
+ .total{
+    font-size: 25px;
+    color: white;
+ }
+ .total-price{
+    color: rgb(149, 110, 255);
+ }
+ .confirm-button{
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    padding: 12px;
+    width: fit-content;
+    font-size: 20px;
+    background: linear-gradient(to left, rgb(173, 154, 255), rgb(149, 110, 255));
+ }
+ 
+ 
+ footer{
+    background-color: #494949;
+    padding: 30px;
+    color: #c8c8c8;
+    font-size: 25px;
+ }
+ 
