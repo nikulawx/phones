@@ -3,9 +3,38 @@ let products = [
         "title":"Apple iPhone 16 pro",
         "price": 65000,
         "image":"https://content2.rozetka.com.ua/goods/images/big/468886490.jpg",
-        "description":"Новітній контролер камери. Такий швидкий. Такий плавний.Тонші рамки для більших дисплеїв.Прорив у часі роботи від акумулятора."
-    }
-    
+        "desc":"Новітній контролер камери. Такий швидкий. Такий плавний.Тонші рамки для більших дисплеїв.Прорив у часі роботи від акумулятора."
+    },
+    {
+        "title":"MacBook Pro",
+        "price": 70000,
+        "image":"https://bigmag.ua/image/cache/catalog/archive/data/00000001/1651351531/01/1111111/121/1212/1/1590778665-2000x2000.jpg",
+        "desc":"це суперпотужний інструмент для роботи. Феноменальна одно­- та багато­по­то­кова продук­тив­ність центрального процесора, швидша уніфікована памʼять, вдоско­налені приско­рю­вачі машинного навчання."
+    },
+    {
+        "title":"iMac",
+        "price": 105000,
+        "image":"https://www.apple.com/v/imac/s/images/overview/closer-look/colors_pf_blue__bshbmf5v5rki_large_2x.jpg",
+        "desc":"Ще швидший центральний процесор дає змогу виконувати всі завдання хутчіше. Потужний графічний процесор з апаратним прискоренням трасування променів гарантує неймовірну реалістичність графіки."
+    },
+    {
+        "title":"iPad air",
+        "price": 35000,
+        "image":"https://www.apple.com/v/ipad-air/x/images/overview/two-sizes/gallery-toggle/spin_reverse_endframe__ey8zvqfsy08y_large_2x.png",
+        "desc":"він майже вдвічі швидший, ніж моделі попереднього покоління. Його було створено для роботи з Apple Intelligence, щоб допомогти вам писати, проявляти індивідуальність й виконувати завдання без зусиль."
+    },
+    {
+        "title":"AirPods Max",
+        "price": 10000,
+        "image":"https://www.apple.com/v/airpods-max/h/images/overview/bento/midnight/bento_1_airpod_max_midnight__4jy1tkqh9qay_large_2x.jpg",
+        "desc":"AirPods Max відтворюють звук із неймовірно якісною деталізацією й дарують неперевершені аудіовраження. Кожна деталь спеціально розробленого драйвера працює над створенням звучання з ультранизьким спотворенням у всьому чутному діапазоні. Тому ви яскраво чутимете кожну ноту."
+    },
+    {
+        "title":"iPad mini",
+        "price": 29000,
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqNjd1bnsfV6dj9igLOWJVvlUBhzq1cIDPWw&s",
+        "desc":"Водночас він неймовірно легкий і компактний. Його оснащено корпусом із повністю переробленого алюмінію та дивовижним дисплеєм на всю передню панель. І ви можете всюди брати його з собою, адже він легко поміщається в рюкзак або сумку."
+    },
 ]
 function getCookieValue(cookieName) {
     const cookies = document.cookie.split(';');
