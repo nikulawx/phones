@@ -29,6 +29,10 @@ header{
 display: flex;
 align-items: center;
 gap: 20px;
+background: linear-gradient(to left,rgb(173,154,255), rgb(149,110,255));
+border-radius: 20px;
+
+padding: 5px;
 }
 
 nav{
